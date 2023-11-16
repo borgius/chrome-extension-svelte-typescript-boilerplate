@@ -5,7 +5,7 @@
     "type": "module",
     "repository": {
         "type": "git",
-        "url": "https://github.com/nekitcorp/chrome-extension-svelte-typescript-boilerplate.git"
+        "url": "https://github.com/borgius/chrome-extension-svelte-typescript-boilerplate.git"
     },
     "scripts": {
         "dev": "vite",
@@ -14,14 +14,21 @@
     },
     "devDependencies": {
         "@crxjs/vite-plugin": "2.0.0-beta.18",
-        "@sveltejs/vite-plugin-svelte": "2.4.5",
+        "@sveltejs/vite-plugin-svelte": "3.0.0",
         "@tsconfig/svelte": "5.0.2",
-        "@types/chrome": "0.0.243",
-        "svelte": "4.2.0",
-        "svelte-check": "3.5.0",
-        "svelte-preprocess": "5.0.4",
+        "@types/chrome": "0.0.251",
+        "@types/node": "^20.9.1",
+        "@unocss/extractor-svelte": "^0.57.4",
+        "svelte": "4.2.4",
+        "svelte-check": "3.6.0",
+        "svelte-preprocess": "5.1.0",
         "tslib": "2.6.2",
         "typescript": "5.2.2",
-        "vite": "4.2.3"
+        "vite": "5.0.0"
+    },
+    "dependencies": {
+        "@unocss/svelte-scoped": "^0.57.4",
+        "unocss": "^0.57.4",
+        "vite-plugin-javascript-obfuscator": "^3.1.0"
     }
 }

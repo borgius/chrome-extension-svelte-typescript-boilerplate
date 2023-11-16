@@ -23,7 +23,7 @@
     }
 </script>
 
-<div class="container">
+<div class="container ba">
     <p>Current count: <b>{count}</b></p>
     <div>
         <button on:click={decrement}>-</button>

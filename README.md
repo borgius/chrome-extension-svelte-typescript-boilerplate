@@ -14,18 +14,18 @@
 
 ```bash
 # install dependencies
-npm i
+pnpm i
 
 # build files to `/dist` directory
 # HMR for extension pages and content scripts
-npm run dev
+pnpm run dev
 ```
 
 ## Build
 
 ```bash
 # build files to `/dist` directory
-$ npm run build
+$ pnpm run build
 ```
 
 ## Load unpacked extensions
