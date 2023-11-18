@@ -4,7 +4,21 @@
         "composite": true,
         "skipLibCheck": true,
         "module": "ESNext",
-        "moduleResolution": "bundler"
+        "moduleResolution": "bundler",
+        "paths": {
+            "@lib/*": [
+                "./lib/*"
+            ],
+            "@components/*": [
+                "./components/*"
+            ],
+        }
     },
-    "include": ["vite.config.ts", "src/manifest.config.ts", "package.json"]
+    "include": [
+        "vite.config.ts",
+        "tsconfig.json",
+        "src/manifest.config.ts",
+        "package.json",
+        "src/lib/constants.js"
+    ]
 }
