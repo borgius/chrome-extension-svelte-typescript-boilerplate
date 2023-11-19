@@ -30,12 +30,11 @@ export default ({ mode }) => {
             mode === "production" && obfuscatorPlugin({
                 include: ["src/**/*.ts", "src/**/*.js"],
                 apply: "build",
-                debugger: true,
                 options: {
                     optionsPreset: "high-obfuscation",
                     debugProtection: true,
                 }
-            })],
+            }) as any],
         publicDir: "./src/public",
         server: {
             port: 5173,
