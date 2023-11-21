@@ -7,7 +7,7 @@ import UnoCSS from '@unocss/svelte-scoped/vite'
 import obfuscatorPlugin from "vite-plugin-javascript-obfuscator";
 import tsconfigPaths from 'vite-tsconfig-paths';
 import autoprefixer from 'autoprefixer';
-import { IGNORED_WARNINGS } from "./src/lib/constants";
+import { IGNORED_WARNINGS } from "./src/constants";
 
 
 // https://vitejs.dev/config/

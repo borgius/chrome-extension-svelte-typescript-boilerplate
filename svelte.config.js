@@ -1,5 +1,5 @@
 import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
-import { IGNORED_WARNINGS } from "./src/lib/constants.js";
+import { IGNORED_WARNINGS } from "./src/constants.js";
 
 export default {
     // Consult https://svelte.dev/docs#compile-time-svelte-preprocess

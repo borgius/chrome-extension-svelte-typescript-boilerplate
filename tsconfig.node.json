@@ -19,6 +19,6 @@
         "tsconfig.json",
         "src/manifest.config.ts",
         "package.json",
-        "src/lib/constants.js"
+        "src/constants.js"
     ]
 }
